@@ -1,0 +1,43 @@
+.title {
+  font-family: Light;
+  text-align: center;
+  font-size: 90px;
+  padding-top: 100px;
+  margin-bottom: 140px;
+}
+.collection {
+  background-color: #e0edf4;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 200px;
+}
+
+.product img {
+  height: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+.price {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.product_name {
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.product {
+  width: 25%;
+}
