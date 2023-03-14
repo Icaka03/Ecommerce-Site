@@ -13,36 +13,6 @@ export default function Header() {
   });
   return (
     <section>
-      <div className={styles.header}>
-        <nav>
-          <ul>
-            <li>
-              <a href="default.asp">Home</a>
-            </li>
-            <li>
-              <a href="default.asp">Pages</a>
-            </li>
-            <li>
-              <a href="default.asp">Shop</a>
-            </li>
-            <li>
-              <a href="default.asp">Blog</a>
-            </li>
-            <li>
-              <a href="default.asp">Contact</a>
-            </li>
-          </ul>
-        </nav>
-        <img src={logo} alt="logo" className={styles.logo} />
-        <ul>
-          <li>
-            <a href="default.asp">Shops</a>
-          </li>
-          <li>
-            <Link to={accountLink}>Account</Link>
-          </li>
-        </ul>
-      </div>
       <div className={styles.main_section}>
         <div className={styles.left_side}>
           <div className={styles.content}>
