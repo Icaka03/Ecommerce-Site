@@ -1,0 +1,50 @@
+.image {
+  width: 50%;
+}
+
+.review {
+  width: 95%;
+  margin: 0 auto;
+  background-color: #faefee;
+  display: flex;
+  margin-top: 200px;
+  padding: 100px 0px;
+}
+
+.image img {
+  width: 45%;
+  display: block;
+  margin: 0 auto;
+}
+
+.image_info h1 {
+  text-align: left;
+  font-family: Title;
+  margin-bottom: 70px;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.image_info p {
+  text-align: left;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 2.2rem;
+  margin-bottom: 50px;
+}
+
+.image_info {
+  width: 30%;
+  padding-top: 50px;
+}
+
+.image_info h2 {
+  font-family: Light;
+}
+
+.normal {
+  font-family: Title;
+  font-size: 15px;
+  margin-left: 50px;
+}
