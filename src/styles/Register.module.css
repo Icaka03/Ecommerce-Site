@@ -40,3 +40,14 @@
   display: block;
   cursor: pointer;
 }
+
+.info {
+  text-align: center;
+  font-size: 18px;
+}
+
+.info a {
+  color: #3aaf9f;
+  text-decoration: none;
+  font-weight: 600;
+}
