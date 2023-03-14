@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import model from "../images/model.png";
 import styles from "../styles/Header.module.css";
 import logo from "../images/logo.png";
+
 export default function Header() {
   return (
     <section>
@@ -31,7 +33,7 @@ export default function Header() {
             <a href="default.asp">Shops</a>
           </li>
           <li>
-            <a href="default.asp">Account</a>
+            <Link to="/register">Account</Link>
           </li>
         </ul>
       </div>
