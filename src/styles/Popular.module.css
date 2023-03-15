@@ -24,14 +24,18 @@
   display: block;
   height: 250px;
   mix-blend-mode: darken;
-  background: #161616;
-  padding: 10px;
 }
 
 .price {
   margin-top: 20px;
   font-size: 20px;
   text-align: center;
+  border: 2px solid #e2582c;
+  border-radius: 30px;
+  position: absolute;
+  padding: 10px 20px;
+  background: #e2582c;
+  color: #fff;
 }
 
 .product_name {
@@ -43,6 +47,10 @@
   margin-top: 20px;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+}
 @media screen and (max-width: 1300px) {
   .products {
     display: grid;

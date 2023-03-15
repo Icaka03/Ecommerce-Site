@@ -17,7 +17,9 @@ export default function Popular() {
             <div className={styles.product}>
               <img src={item.image} alt={item.title} />
               <div className={styles.product_name}>{item.title}</div>
-              <div className={styles.price}>${item.price}</div>
+              <div className={styles.center}>
+                <div className={styles.price}>${item.price}</div>
+              </div>
             </div>
           );
         })}
