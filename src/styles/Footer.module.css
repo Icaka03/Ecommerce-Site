@@ -77,3 +77,28 @@
   font-size: 20px;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    width: 100%;
+  }
+  .upper_footer {
+    display: block;
+  }
+  .text p {
+    text-align: center;
+  }
+  .subscribe p {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .subscribe input {
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+    margin-bottom: 50px;
+  }
+  .lower_footer {
+    display: block;
+  }
+}

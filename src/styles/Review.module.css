@@ -48,3 +48,28 @@
   font-size: 15px;
   margin-left: 50px;
 }
+
+@media only screen and (max-width: 600px) {
+  .review {
+    width: 100%;
+    display: block;
+  }
+  .image img {
+    width: 100%;
+  }
+  .image {
+    width: 100%;
+  }
+  .image_info {
+    width: 100%;
+  }
+  .image_info h2 {
+    text-align: center;
+  }
+  .image_info h1 {
+    text-align: center;
+  }
+  .image_info p {
+    text-align: center;
+  }
+}

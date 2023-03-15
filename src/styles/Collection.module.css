@@ -53,3 +53,17 @@
   display: flex;
   justify-content: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .collection {
+    width: 100%;
+  }
+  .row {
+    width: 100%;
+    display: block;
+  }
+  .product {
+    width: 100%;
+    margin-bottom: 200px;
+  }
+}

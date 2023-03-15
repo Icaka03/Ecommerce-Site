@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
 import { useState } from "react";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
+
 export default function Navbar() {
   const [accountLink, setAccountLink] = useState("");
   const auth = getAuth();
@@ -25,27 +26,29 @@ export default function Navbar() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="default.asp">Pages</a>
+            <a href="/">Pages</a>
           </li>
           <li>
-            <a href="default.asp">Shop</a>
+            <a href="/">Shop</a>
           </li>
           <li>
-            <a href="default.asp">Blog</a>
+            <a href="/">Blog</a>
           </li>
           <li>
-            <a href="default.asp">Contact</a>
+            <a href="/">Contact</a>
           </li>
         </ul>
       </nav>
       <img src={logo} alt="logo" className={styles.logo} />
       <ul>
         <li>
-          <a href="default.asp">Shops</a>
+          <a href="/">Shops</a>
         </li>
         <li>
           <Link to={accountLink}>Account</Link>
-          <p className={styles.status}>{status}</p>
+          <div>
+            <p className={styles.status}>{status}</p>
+          </div>
         </li>
       </ul>
     </div>
