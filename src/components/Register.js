@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { auth } from "../firebase.js";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 export default function Register() {
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
@@ -40,6 +41,13 @@ export default function Register() {
       <form className={styles.form} onSubmit={submitHandler}>
         <h1>Register Here</h1>
         <div className={styles.holder}>
+          <input
+            name="name"
+            type="text"
+            placeholder="Name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
           <input
             name="email"
             type="email"

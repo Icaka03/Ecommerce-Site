@@ -11,7 +11,6 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 0 auto;
   width: 95%;
-  background-color: #f3f3f3;
   padding: 100px 0px;
 }
 
@@ -25,6 +24,8 @@
   display: block;
   height: 250px;
   mix-blend-mode: darken;
+  background: #161616;
+  padding: 10px;
 }
 
 .price {

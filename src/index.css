@@ -18,6 +18,11 @@ body {
   src: local("EBGaramond"),
     url("./fonts/EBGaramond-Regular.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Soft";
+  src: local("MerriweatherSans-Medium"),
+    url("./fonts/MerriweatherSans-Medium.ttf") format("truetype");
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -30,4 +35,5 @@ button {
   border: none;
   letter-spacing: 3px;
   font-size: 20px;
+  cursor: pointer;
 }

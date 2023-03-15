@@ -4,6 +4,7 @@ import Collection from "./Collection.js";
 import Popular from "./Popular.js";
 import Review from "./Review.js";
 import Navbar from "./Navbar.js";
+import Footer from "./Footer.js";
 export default function Home() {
   return (
     <>
@@ -13,6 +14,7 @@ export default function Home() {
       <Collection />
       <Popular />
       <Review />
+      <Footer />
     </>
   );
 }

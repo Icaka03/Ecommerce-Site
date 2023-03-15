@@ -1,0 +1,114 @@
+.account {
+  width: 95%;
+  margin: 0 auto;
+  font-family: Title;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.sign_out {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.out {
+  border-radius: 30px;
+  padding: 10px 10px;
+  height: 50px;
+  background-color: #e2582c;
+}
+
+.line {
+  width: 100%;
+  background-color: #454545;
+  height: 1px;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 100px;
+}
+
+.account_details {
+  width: 100%;
+  font-family: Soft;
+}
+
+.account_details img {
+  width: 30%;
+}
+
+.account_details p {
+  margin-top: -40px;
+  font-size: 20px;
+}
+
+.active {
+  color: #e2582c;
+}
+
+.account_details h2 {
+  font-size: 25px;
+}
+
+.account_details h2:hover {
+  color: #e2582c;
+  cursor: pointer;
+}
+
+.personal_info {
+  font-family: Soft;
+}
+
+.personal_info h1 {
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.personal_info p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #646466;
+}
+
+.tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 100px;
+}
+
+.tab {
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  background-color: #f6f5f8;
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.title img {
+  object-fit: fill;
+  width: 50px;
+  height: 50px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  align-items: center;
+}
+.title h1 {
+  font-size: 35px;
+}
+
+.p {
+  margin-top: -30px;
+  font-family: Soft;
+}
