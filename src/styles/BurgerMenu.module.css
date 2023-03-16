@@ -1,0 +1,19 @@
+.burger{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.sidebar{
+    height: 100vh;
+    background-color: blue;
+}
+
+.menu{
+    position: absolute;
+    width: 60%;
+}
+
+.sidebar_menu li{
+    list-style-type: none
+}

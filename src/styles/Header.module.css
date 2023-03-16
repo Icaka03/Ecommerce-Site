@@ -73,6 +73,9 @@
   height: 20px;
 }
 
+.burger{
+  display: none;
+}
 @media only screen and (max-width: 600px) {
   .left_side {
     width: 100%;
@@ -92,5 +95,22 @@
   }
   .content {
     padding-bottom: 50px;
+  }
+  .burger{
+    display: block;
+    width: 100%;
+  }
+  .main_menu{
+    display: none;
+  }
+  .logo{
+    display: none;
+  }
+  .header{
+    width: 100%;
+  }
+  .header ul{
+    width: 100%;
+    justify-content: flex-end;
   }
 }

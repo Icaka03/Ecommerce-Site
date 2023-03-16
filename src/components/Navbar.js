@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
 import { useState } from "react";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
+import BurgerMenu from "../components/BurgerMenu.js";
 
 export default function Navbar() {
   const [accountLink, setAccountLink] = useState("");
@@ -20,7 +21,10 @@ export default function Navbar() {
   });
   return (
     <div className={styles.header}>
-      <nav>
+      <div className={styles.burger}>
+        <BurgerMenu />
+      </div>
+      <nav className={styles.main_menu}>
         <ul>
           <li>
             <Link to="/">Home</Link>
