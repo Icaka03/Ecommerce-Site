@@ -46,7 +46,7 @@ export default function Navbar() {
       <img src={logo} alt="logo" className={styles.logo} />
       <ul>
         <li>
-          <a href="/">Shops</a>
+          <Link to="/cart">Cart</Link>
         </li>
         <li>
           <Link to={accountLink}>Account</Link>

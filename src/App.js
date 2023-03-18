@@ -9,7 +9,7 @@ import Account from "./components/Account.js";
 import Home from "./components/Home.js";
 import Login from "./components/Login.js";
 import Register from "./components/Register";
-import BurgerMenu from "./components/BurgerMenu.js";
+import Cart from "./components/Cart.js";
 export default function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -18,7 +18,7 @@ export default function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/account" element={<Account />} />
-        <Route path="/burger" element={<BurgerMenu />} />
+        <Route path="/cart" element={<Cart />} />
       </>
     )
   );
