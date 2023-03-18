@@ -1,0 +1,28 @@
+.cart_details{
+    height: 400px;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 100px;
+}
+.cart_details h2{
+text-align: right;
+}
+.cart{
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+    margin-bottom: 100px;
+    justify-items: center;
+    align-items: center;
+}
+
+.cart img{
+    width: 70%;
+}
+
+.quantity button{
+    padding: 8px 18px;
+}
+
+.x{
+    padding: 8px 12px;
+}
