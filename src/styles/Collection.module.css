@@ -14,7 +14,6 @@
 .row {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 200px;
 }
 
 .product img {
@@ -48,6 +47,8 @@
 
 .product {
   width: 25%;
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr;
 }
 
 .center {

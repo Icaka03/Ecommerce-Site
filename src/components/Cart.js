@@ -6,7 +6,6 @@ const Cart = () => {
   const Globalstate = useContext(Cartcontext);
   const state = Globalstate.state;
   const dispatch = Globalstate.dispatch;
-
   const total = state.reduce((total, item) => {
     return total + item.price * item.quantity;
   }, 0);
@@ -19,7 +18,6 @@ const Cart = () => {
             <div className={styles.cart} key={index}>
               <img src={item.image} alt={item.title} />
               <p>{item.title}</p>
-
               <p>{item.quantity * item.price}$</p>
               <div className={styles.quantity}>
                 <button

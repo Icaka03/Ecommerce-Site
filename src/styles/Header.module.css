@@ -11,14 +11,25 @@
   margin-top: 50px;
   margin-left: -50px;
 }
-
+.ul{
+  display: flex;
+}
+.info{
+  margin-top: 40px;
+}
+.logo{
+  margin-right: 180px;
+  margin-top: 40px;
+}
 .header {
   display: flex;
   justify-content: space-between;
   width: 95%;
   margin: 0 auto;
 }
-
+.cart{
+  width: 100%;
+}
 .main_section {
   height: 800px;
   width: 95%;
@@ -26,7 +37,10 @@
   display: flex;
   margin-top: 50px;
 }
-
+.relative{
+  position: relative;
+  margin-top: 40px;
+}
 .left_side {
   background-color: #e0edf4;
   width: 50%;
@@ -58,8 +72,6 @@
 .header img {
   width: 50px;
   height: 50px;
-  margin-top: 40px;
-  margin-left: -190px;
 }
 
 .status {
@@ -75,6 +87,15 @@
 
 .burger{
   display: none;
+}
+
+.red_counter{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  border-radius: 50%;
+  left: 55%;
 }
 @media only screen and (max-width: 600px) {
   .left_side {
@@ -112,5 +133,11 @@
   .header ul{
     width: 100%;
     justify-content: flex-end;
+  }
+  .relative{
+    margin-top: 20px;
+  }
+  .red_counter{
+    top:35%
   }
 }

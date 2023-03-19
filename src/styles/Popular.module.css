@@ -16,7 +16,8 @@
 
 .product {
   width: 100%;
-  margin-bottom: 100px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .product img {
