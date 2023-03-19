@@ -1,19 +1,22 @@
-.burger{
-    width: 50px;
-    height: 50px;
-    background-color: red;
+.burger {
+  width: 50px;
+  height: 50px;
+  background-image: url(../images/burger.png);
+  background-size: cover;
+  margin-top: 50px;
+  margin-left: 20px;
 }
 
-.sidebar{
-    height: 100vh;
-    background-color: blue;
+.sidebar {
+  height: 100vh;
+  background-color: blue;
 }
 
-.menu{
-    position: absolute;
-    width: 60%;
+.menu {
+  position: absolute;
+  width: 60%;
 }
 
-.sidebar_menu li{
-    list-style-type: none
+.sidebar_menu li {
+  list-style-type: none;
 }

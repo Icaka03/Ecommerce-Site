@@ -144,3 +144,24 @@
     padding-top: 40px;
   }
 }
+
+@media only screen and (max-width: 1100px) {
+  .main_section {
+    display: block;
+  }
+  .right_side img {
+    width: 100%;
+  }
+  .left_side {
+    width: 100%;
+  }
+  .right_side {
+    width: 100%;
+  }
+  .content p {
+    padding-top: 40px;
+  }
+  .content {
+    padding-bottom: 40px;
+  }
+}

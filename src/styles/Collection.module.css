@@ -12,8 +12,8 @@
 }
 
 .row {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .product img {
@@ -66,5 +66,19 @@
   }
   .product {
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
