@@ -11,13 +11,13 @@
   margin-top: 50px;
   margin-left: -50px;
 }
-.ul{
+.ul {
   display: flex;
 }
-.info{
+.info {
   margin-top: 40px;
 }
-.logo{
+.logo {
   margin-right: 180px;
   margin-top: 40px;
 }
@@ -27,7 +27,7 @@
   width: 95%;
   margin: 0 auto;
 }
-.cart{
+.cart {
   width: 100%;
 }
 .main_section {
@@ -37,7 +37,7 @@
   display: flex;
   margin-top: 50px;
 }
-.relative{
+.relative {
   position: relative;
   margin-top: 40px;
 }
@@ -85,11 +85,11 @@
   height: 20px;
 }
 
-.burger{
+.burger {
   display: none;
 }
 
-.red_counter{
+.red_counter {
   width: 20px;
   height: 20px;
   background-color: red;
@@ -117,27 +117,30 @@
   .content {
     padding-bottom: 50px;
   }
-  .burger{
+  .burger {
     display: block;
     width: 100%;
   }
-  .main_menu{
+  .main_menu {
     display: none;
   }
-  .logo{
+  .logo {
     display: none;
   }
-  .header{
+  .header {
     width: 100%;
   }
-  .header ul{
+  .header ul {
     width: 100%;
     justify-content: flex-end;
   }
-  .relative{
+  .relative {
     margin-top: 20px;
   }
-  .red_counter{
-    top:35%
+  .red_counter {
+    top: 35%;
+  }
+  .content p {
+    padding-top: 40px;
   }
 }
