@@ -2,7 +2,7 @@ import styles from "../styles/Footer.module.css";
 import Instagram from "../images/instagram.png";
 export default function Footer() {
   return (
-    <section className={styles.footer}>
+    <section className={styles.footer} id="footer">
       <div className={styles.upper_footer}>
         <div className={styles.logo}>
           <h1>COMPANY NAME</h1> <p>some text</p>

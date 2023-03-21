@@ -13,7 +13,7 @@ export default function Collection() {
   console.log(Globalstate);
   const dispatch = Globalstate.dispatch;
   return (
-    <section className={styles.collection}>
+    <section className={styles.collection} id="collection">
       <div className={styles.title}>Featured Collection</div>
       <div className={styles.row}>
         {items.map((item) => {

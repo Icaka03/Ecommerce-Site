@@ -13,13 +13,13 @@ export default function Burger() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/">Pages</a>
+              <a href="/">About us</a>
             </li>
             <li>
-              <a href="/">Shop</a>
+              <a href="/">Products</a>
             </li>
             <li>
-              <a href="/">Blog</a>
+              <a href="/">Review</a>
             </li>
             <li>
               <a href="/">Contact</a>

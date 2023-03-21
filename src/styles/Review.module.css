@@ -6,11 +6,18 @@
   width: 95%;
   margin: 0 auto;
   background-color: #faefee;
-  display: flex;
   margin-top: 50px;
-  padding: 100px 0px;
+  padding: 50px 0px;
 }
+.review h1{
+  font-size: 50px;
+  text-align: center;
+  font-family: Title;
+}
+.review_flex{
+  display: flex;
 
+}
 .image img {
   width: 45%;
   display: block;
@@ -50,11 +57,14 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .review {
+  .review_flex {
     width: 100%;
     display: block;
   }
   .image img {
+    width: 100%;
+  }
+  .review{
     width: 100%;
   }
   .image {

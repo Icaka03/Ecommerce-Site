@@ -12,7 +12,9 @@ body {
   src: local("DancingScript-Bold"),
     url("./fonts/DancingScript-Bold.ttf") format("truetype");
 }
-
+* {
+  scroll-behavior: smooth;
+}
 @font-face {
   font-family: "Title";
   src: local("EBGaramond"),
