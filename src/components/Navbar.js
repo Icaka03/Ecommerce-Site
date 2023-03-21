@@ -14,9 +14,9 @@ const Navbar = () => {
   });
   onAuthStateChanged(auth, (user) => {
     if (user) {
-      setStatus("logged");
+      setStatus("Account");
     } else {
-      setStatus("not logged");
+      setStatus("Log in");
     }
   });
   return (
@@ -55,10 +55,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className={styles.info}>
-          <Link to={accountLink}>Account</Link>
-          <div>
-            <p className={styles.status}>{status}</p>
-          </div>
+          <Link to={accountLink}>{status}</Link>
         </div>
       </div>
     </div>
