@@ -9,7 +9,9 @@
 
 .sidebar {
   height: 100vh;
-  background-color: blue;
+  background-color: #23282d;
+  position: fixed;
+  width: 70%;
 }
 
 .menu {
@@ -19,4 +21,8 @@
 
 .sidebar_menu li {
   list-style-type: none;
+  padding: 20px 10px;
+  background: #27313d;
+  margin-bottom: 2px;
+  margin-right: 2px;
 }
